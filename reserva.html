@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Restaurante Toni</title>
+		<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<div align="center"> <!--Se crea un div para contener el h1 en el centro de la pantalla-->
+	<h1>Restaurante Toni</h1>
+</div>
+<div class="flex-container space-around">
+	<div class="flex-item"><a href="./index.html">Presentacion</a></div>
+	<div class="flex-item"><a href="./menu.html">Menu</a></div>
+	<div class="flex-item"><a href="./reserva.html">Reserva</a></div>
+ </div>
+<br>
+<hr><!-- salto de linea con linea horizontal-->
+<br>
+<div  align="center">
+	<form enctype="text/plain" action="gracias.html" method="post">
+	<label>Nombre:</label> <!-- Etiqueta impresa en pantalla label -->
+	<input name="Nombre" type="text" placeholder="Nombre">
+	<br>
+	<br>
+	<label>Num. Tarjeta Socio:</label>
+	<input name="Num. Tarjeta" type="text" placeholder="Numero de tarjeta">
+	<br>
+	<br>
+	<label>Fecha:</label>
+	<input type="date" name="Dia"></input>
+	<select name="Hora">
+		<option>20:00h</option> <!--opciones dentro de una selección-->
+		<option>20:30h</option>
+		<option>21:00h</option>
+		<option>21:30h</option>
+		<option>22:00h</option>
+	</select>
+<br>
+<br>
+<div align="center">
+	<label>Comentarios</label> 
+	<br>
+	<br>
+		<textarea rows="8" cols="50" name="Comentarios" placeholder="Escriba su comentario aquí..."></textarea>
+</div>
+	<br>
+		<label>Parking</label>
+			<input name="Parking" type="checkbox">
+	<br>
+	<br>
+		<label>Terraza </label>
+			<input name="Zona" type="radio" value="terraza">
+		<label>Salón</label>
+			<input name="Zona" type="radio" value="salon">
+	<br>
+	<br>
+			<input name="Sub" type="submit" value="Confirmar reserva">
+			<input name="res" type="reset" value="Borrar datos">
+</form>
+</body>

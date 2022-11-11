@@ -1,0 +1,80 @@
+h1{
+	color:rgb(242,245,202);
+	font-size:110px;
+	font-family:Brush Script MT;
+}
+
+body{
+	background-image: url(https://cdn.pixabay.com/photo/2015/06/30/18/36/st-826688_960_720.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.encabezado{
+	font-family:Lucida Handwriting;	
+}
+
+a{
+	color:rgb(193,189,189);
+	font-size:20px;
+	font-weight: bold;
+}
+
+a:hover{
+	color:rgb(239,4,4);
+	font-size:30px;
+	font-weight: bold;
+}
+
+p{
+	font-family:Lucida Handwriting;
+	font-size:20px;
+	color:white;
+}
+
+table th{
+	background-color:rgb(189, 98, 24);
+	color:white;
+	border-radius:30px;
+
+}
+
+table td{
+	border-radius:30px;
+
+}
+
+.menu{
+	
+	border-radius:40px;
+	font-family:Brush Script MT;
+	font-size:25px;
+	color:black;
+	background-color:white;
+}
+
+form{
+	color:white;
+	font-family:Brush Script MT;
+	font-size:20px;
+}
+
+textarea{
+	resize:none;
+}
+
+.flex-container{
+	width: 600px;
+	height:30px;
+	padding:10px;
+	margin: 10px auto;
+	font-family:Lucida Handwriting;
+	font-size:20px;
+	color:white;
+	background-color:#b67232be;
+	display: flex;
+	justify-content: space-around 	
+}
+
+ 
